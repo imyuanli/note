@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app">
+<div id="app">
     正在加载
-  </div>
-  <script>
+</div>
+<script>
     window.$docsify = {
-      name: '',
-      repo: '',
-      coverpage: true
+        name: '123',
+        repo: 'https://github.com/Erxionglsx/Erxionglsx.github.io/edit/master/_sidebar.md',
+        //侧边栏
+        loadSidebar: true,
+        loadNavbar: true,
+        maxLevel: 5,//最大支持渲染的标题层级
+        subMaxLevel: 3,
+        homepage: 'README.md',
+        // routerMode: 'history',
+        //切换页面后是否自动跳转到页面顶部
+        auto2top: true,
+        //封面
+        coverpage: true,
+
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
